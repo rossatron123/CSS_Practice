@@ -1,0 +1,58 @@
+html, body{
+  font-family: 'Cantarell', sans-serif;
+  color:whitesmoke;
+}
+
+#inx-atf{
+  height:100vh;
+  display:flex;
+  flex-flow:row nowrap;
+  background-color: #5b5b5b;
+  justify-content:center;
+  align-items:center;
+  background-image:url("background.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+
+#inx-atf > div {
+    height: 18vh;
+}
+
+.inx-center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inx-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+button {
+    color: rgb(202, 250, 234);
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid rgb(202, 250, 234);
+    padding: .7rem 1.2rem;
+    border-radius: 3px;
+}
